@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-image: url(/img/bg-header.png);
+  background-size: cover;
+  height: 80rem;
+}
+.header_figure {
+  width: 100%;
+  padding-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.header_menu {
+  display: flex;
+}
+.header_lista {
+  font-size: 3rem;
+  font-weight: 300;
+  color: aliceblue;
+}
+.header_img {
+  width: 12rem;
+}
+.header_menu a {
+  color: #fff;
+  text-decoration: none;
+}
+.header_menu a:hover {
+  text-decoration: underline;
+}
+
+li {
+  margin-right: 2rem;
+  list-style-type: none;
+}
+.rumbo {
+  width: 100%;
+  margin-top: 23rem;
+}
+.rumbo_container {
+  text-align: center;
+}
+.rumbo_img {
+  width: 5rem;
+}
+.rumbo_h1 {
+  font-size: 3.5rem;
+  color: #e8f00c;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+.rumbo_p {
+  font-size: 1.6rem;
+  color: #fdfefe;
+  letter-spacing: 0.4rem;
+}
+.rumbo_boton {
+  font-size: 1.6rem;
+  border-radius: 0.9rem;
+  padding: 0.7rem 1rem;
+  background-color: #e8f00c;
+  color: #84878d;
+  font-weight: bolder;
+  margin-top: 14rem;
+}
+.planes {
+  width: 100%;
+  margin: 0 auto;
+}
+.planes_first {
+  text-align: center;
+
+  font-size: 300;
+}
+.planes_h1 {
+  font-size: 3rem;
+  color: #000;
+  margin-top: 9rem;
+  margin-bottom: 4rem;
+}
+.planes_p {
+  color: #000;
+  font-size: 1.6rem;
+  margin-bottom: 9rem;
+}
+strong {
+  font-size: 1.6rem;
+}
+.planes_second {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.planes_info {
+  position: relative;
+}
+.planes_h5 {
+  position: absolute;
+  color: #e8f00c;
+  font-size: 1.6rem;
+  font-weight: bold;
+  top: 28%;
+  right: 35%;
+}
+.planes_p {
+  font-weight: bold;
+  text-align: center;
+}
+.destinos {
+  width: 100%;
+  text-align: center;
+  background-image: url(/img/bg-destinos.png);
+  background-size: cover;
+  height: 100rem;
+}
+.destinos_container {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+.destinos_h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #e8f00c;
+  padding-top: 11rem;
+}
+figcaption {
+  font-size: 3rem;
+  color: #fdfefe;
+  margin-top: 3rem;
+}
+.contacto {
+  background-color: #e8f00c;
+  text-align: center;
+}
+.contacto_h1 {
+  color: #000;
+  font-size: 3rem;
+  padding-top: 3rem;
+}
+.contacto_p {
+  color: #000;
+  font-size: 1.6rem;
+  padding: 3rem;
+}
+.contacto_form {
+  font-size: 6rem;
+}
+.contacto_boton {
+  background-color: rgba(0, 0, 0, 0.411);
+  color: #fdfefe;
+  font-size: 1.9rem;
+  padding: 0.2rem 3rem;
+  border-radius: 8%;
+  margin: 6rem 6rem;
+}
+footer {
+  text-align: center;
+  background-color: #000;
+}
+.footer_p {
+  font-size: 1.6rem;
+  color: #fdfefe;
+  padding-top: 4rem;
+  line-height: 2.5;
+}
